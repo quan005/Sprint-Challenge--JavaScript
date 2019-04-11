@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+  The big difference between the .map and .forEach methods are that .map returns somthing back to us whereas .forEach doesn't return anything back.
+
 2. What is the difference between a function and a method?
+
+  A function is an object, but functions within the scope of a funtion a method.
 
 3. What is closure?
 
+  Closure is the way in which a function can have access to its parent scope. Even after the parent scope has closed.
+
 4. Describe the four rules of the 'this' keyword.
 
+  The four rules/principles are 1. Global Binding, 2. Implicit Binding, 3. New Binding, and 4. Explicit Binding.
+
 5. Why do we need super() in an extended class?
+
+  Super() gives a class the ability to pass any new attributes back to the constructor of the parent object.
 
 ## Project Set up
 
@@ -65,11 +75,11 @@ Your finished project must include all of the following requirements:
 **Pro tip for this challenge: If something seems like it isn't working locally, copy and paste your code up to codepen and take another look at the console.**
 
 ## Task 1: Objects and Arrays
-Test your knowledge of objects and arrays. 
+Test your knowledge of objects and arrays.
 * [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
-This challenge takes a look at callbacks and closures as well as scope. 
+This challenge takes a look at callbacks and closures as well as scope.
 * [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
